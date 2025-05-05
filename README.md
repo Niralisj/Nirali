@@ -1,5 +1,11 @@
 Welcome to my personal portfolio website. built to showcase my projects, creativity, and development skills.
 
+## 🚀 Features
+
+- Clean, minimal design with **Material UI** components  
+- Fully responsive and optimized for all screen sizes  
+- Built with **React.js**  
+- Fast development with **Vite**  
 
 ## 🛠 set-up
 
