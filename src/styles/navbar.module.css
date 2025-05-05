@@ -1,0 +1,36 @@
+
+
+   .navbar {
+    background-color: var(--navy);
+    font-family: 'NTR'; /* Added sans-serif fallback */
+    font-weight: bold;
+  }
+  
+  .brand {
+    color: var(--lightest-slate) !important; /* Keep !important if needed to override react-bootstrap defaults */
+  }
+  
+  .navLink {
+    color: var(--lightest-slate) !important; /* Keep !important if needed */
+  }
+  
+  .navLink:hover {
+    color: var(--green-bright) !important; /* Keep !important if needed */
+  }
+  
+  /* Class specifically for main navigation links that should hide on small screens */
+  .mainNavLink {
+    /* Inherits .navLink styles by default when applied together */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .brand {
+      display: none;
+    }
+  
+    /* Only hide the main nav links on small screens */
+    .mainNavLink {
+      display: none;
+    }
+  }
+  
