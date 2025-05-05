@@ -1,7 +1,25 @@
-# Nirali
+Welcome to my personal portfolio website — built to showcase my projects, creativity, and development skills.
 
-#To set it up:
 
-- Install the dependencies using npm install or yarn.
-- Start the development server using yarn run start.
-- To generate a full static production build, use npm run build.
+## 🛠 set-up
+
+1. Install the dependencies
+
+   ```sh
+   npm install or yarn
+   ```
+
+2. Start the development server
+
+   ```sh
+   npm run dev
+    yarn start
+   ```
+
+##  build for production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
+   ```
