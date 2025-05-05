@@ -1,4 +1,4 @@
-Welcome to my personal portfolio website — built to showcase my projects, creativity, and development skills.
+Welcome to my personal portfolio website. built to showcase my projects, creativity, and development skills.
 
 
 ## 🛠 set-up
@@ -16,9 +16,8 @@ Welcome to my personal portfolio website — built to showcase my projects, crea
     yarn start
    ```
 
-##  build for production
+3. build for production
 
-1. Generate a full static production build
 
    ```sh
    npm run build
